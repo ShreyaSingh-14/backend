@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a basic backend app",
+  "keywords": [
+    "node"
+  ],
+  "homepage": "https://github.com/ShreyaSingh-14/backend#readme",
+  "bugs": {
+    "url": "https://github.com/ShreyaSingh-14/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreyaSingh-14/backend.git"
+  },
+  "license": "ISC",
+  "author": "shreya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
