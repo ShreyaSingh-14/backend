@@ -18,10 +18,6 @@ pincode:{
     type:String,
     required:true
 },
-specializedIn:[
-{
-type:String
-},
-],
+
 },{timestamps:true})
 export const HospitalRecord=mongoose.model("HospitalRecord",hospitalSchema)
