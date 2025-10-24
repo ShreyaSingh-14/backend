@@ -5,11 +5,7 @@ const todoSchema=new mongoose.Schema({
         type:String,
         required:true,
     },
-    complete:
-    {
-        type:Boolean,
-        default:false,
-    },
+   
     createdBy:
     {
         type:mongoose.Schema.Types.ObjectId,
